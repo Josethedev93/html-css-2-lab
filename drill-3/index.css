@@ -1,0 +1,46 @@
+body, html {
+margin: 0;
+padding: 0
+}
+header{
+    background-color: lightgray;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.logo-container{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}
+article{
+    padding: 50px;
+}
+.rectangle{
+height: 25vh;
+}
+.rectangle-1{
+    background-color: blue;
+}
+.rectangle-2{
+   background-color: rgb(191, 241, 220);
+}
+.rectangle-3{
+    background-color: rgb(195, 223, 159);
+}
+.rectangle-4{
+    background-color: rgb(243, 243, 114);
+}
+.question-container{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.question-container button {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+}
